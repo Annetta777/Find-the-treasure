@@ -1,4 +1,26 @@
 .paragraph {
   background: #000;
-  color: #24011e;
+  color: #fff;
+}
+.crimson {
+
+  background: #DC143C;
+}
+.lightSalmon {
+  background: #FA8072;
+}
+.pink {
+  background: #FFC0CB;
+}
+.lavender {
+  background: #E6E6FA;
+}
+.skyBlue {
+  background: #87CEEB;
+}
+.dodgeBlue {
+  background: #1E90FF;
+}
+.Blue {
+  background: #0000FF;
 }

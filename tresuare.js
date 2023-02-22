@@ -42,19 +42,26 @@ function getDistanceHint(distanceClick) {
     location.reload()
   }
   else if (distanceClick < 35) {
+    paragraph.classList.add('crimson') 
     return 'Обожжешься!'
   } else if ( distanceClick < 40) {
+    paragraph.classList.add('lightSalmon')
       return 'Очень горячо'
     } else if ( distanceClick < 60) {
+      paragraph.classList.add('pink')
       return 'Горячо'
     } else if ( distanceClick < 100) {
+      paragraph.classList.add('lavender')
       return 'Холодно'
     } else if ( distanceClick < 160) {
+      paragraph.classList.add('skyBlue')
       return 'Очень холодно'
     } else  if (distanceClick < 180) {
+      paragraph.classList.add('dodgerBlue')
       return 'Замерзнешь!'
     }
     else {
+      paragraph.classList.add('Blue')
       return 'Колотун!'
     }
   }
