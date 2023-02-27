@@ -16,15 +16,8 @@ map.addEventListener('click', click)
 function getRandomNumber (size) {
   return Math.floor(Math.random() * size)
 }
-
-/*function getRandomColor() {
-  const index = Math.floor(Math.random() *  colors.length)
-  return  colors[index]
-  }*/
-
 function click (event) {
   let distanceClick = getDistance(event, target)
- // paragraph.style.background = getRandomColor()
   distance.innerHTML = getDistanceHint(distanceClick)
   clicks++
 }
