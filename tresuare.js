@@ -1,7 +1,6 @@
 const map = document.querySelector('#map')
 const distance = document.querySelector('#distance')
 const paragraph = document.querySelector('.paragraph')
-//const colors = ['#E6E6FA', '#D8BFD8', '#DDA0DD', '#FFFFE0', '#FFFACD', '#EEE8AA']
 let width = 400
 let height = 400
 let clicks = 0
